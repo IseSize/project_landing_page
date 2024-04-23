@@ -149,8 +149,55 @@ nav ul a:hover {
     font-weight: bold;
     align-self: flex-end;
 }
+#contact {
+    display: flex;
+    justify-content: center;
+}
+.contact_zone {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 300px;
+    width: 70%;
+    background-color: #fce303;
+    border-radius: 10px;
+    
+}
+.contact_text {
+    padding: 40px 0;
+}
+.contact_text h2, .contact_text p{
+    margin: 0;
+}
+.contact_text h2 {
+    margin-bottom: 5px;
+}
+.button_contact_zone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.button_contact {
+    font-size: 20px;
+    border: solid #232221;
+    background-color: #fce303;
+    border-radius: 10px;
+    padding: 10px;
+}
+.button_contact:hover {
+    background-color: #232221;
+    color: white;
+    position: relative;
+    top: -5px;
+    cursor: grab;
+}
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #232221;
+    color: white;
+    padding: 20px;
 }
